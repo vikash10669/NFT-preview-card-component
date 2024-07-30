@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@media (max-width: 375px){
+    /*Mobile style */
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+h3{
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+    
+}
+.card{
+    width: 290px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 22px;
+    border-radius: 10px;
+}
+.box-img{
+    border-radius: 10px;
+    width: 290px;
+}
+.image-avatar{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+.ETH{
+    color: hsl(178, 100%, 50%);
+    font-family: "Outfit", sans-serif;
+}
+.nft-details {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+}
+.nft-creator {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+}
+.word1{
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.word2{
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+}
+hr{
+    border: 1px solid hsl(215, 32%, 27%);
+}
